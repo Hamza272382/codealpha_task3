@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <nav class="flex1">
+        <div class="left">My Portfolio</div>
+        <div class="right">
+            <ul class="flex2">
+                <li><a href="#personal-info">Personal Info</a></li>
+                <li><a href="#objectives">Objectives</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section class="sec1">
+            <div class="leftSection">Hello! My Name is <span class="blue">Hamza</span></div>
+            <div class="text">And I am a Passionate</div>
+            <span class="animation" id="element"></span>
+            <div class="buttons">
+                <button class="btn"><a href="https://www.mediafire.com/file/rjuo4gcb29anvqs/CV.pdf/file" download="Resume.pdf"> Download Resume </a></button>
+                <button class="btn"><a href="https://github.com/Hamza272382" target="_blank">View GitHub Profile</a></button>
+            </div>
+        </section>
+        <section class="sec2">
+            <div class="rightSection">
+                <img src="img/developer.webp" alt="Developer" width="300" height="396px">
+            </div>
+        </section>
+    </main>
+
+    <hr>
+    <section class="sec3">
+        <h1>My Skills & Past Experience (2018-2024)</h1>
+    </section>
+  
+    <div class="line">
+        <div class="vline">
+            <img src="img/graphic.png" alt="Graphic Design" width="70px" height="70px" class="img1">
+        </div>
+        <div class="skill1">
+            <div class="detail1">
+                <span class="span1">Graphic Designing (2020)</span>
+            </div>
+            <div class="detail2">
+                <q>I'm a Professional Graphic Designer at <span class="span2">Fiverr</span>, I've been working on clients' projects since 2020.</q>
+            </div>
+        </div>
+
+        <div class="vline">
+            <img src="img/web.png" alt="Web Development" width="70" height="70" class="img1">
+        </div>
+        <div class="skill1">
+            <div class="detail3">
+                <span class="span1"> Web Developer (2023)</span>
+            </div>
+            <div class="detail4 detail2">
+                <q>I'm a Professional Web Developer at <span class="span2">Fiverr</span>, I've been working on clients' projects since 2023.</q>
+            </div>
+        </div>
+
+        <div class="vline">
+            <img src="img/office.webp" alt="MS Office" width="70" height="70" class="img1">
+        </div>
+        <div class="skill1">
+            <div class="detail5">
+                <span class="span1"> MS-Office (2018)</span>
+            </div>
+            <div class="detail6 detail2">
+                <q>I'm a Professional MS-Office Expert, and I've worked on many projects.</q>
+            </div>
+        </div>
+
+        <div class="vline">
+            <img src="img/Pre.webp" alt="Video Editing" width="70" height="70" class="img1">
+        </div>
+        <div class="skill1">
+            <div class="detail7">
+                <span class="span1"> Video Editing (2020)</span>
+            </div>
+            <div class="detail8 detail2">
+                <q>I'm a Professional Adobe Premiere Expert, and I've worked on many projects.</q>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>
+
+    <!-- Personal Info Section -->
+    <section class="sec3" id="personal-info">
+        <h1>Personal Info</h1>
+        <p>My name is Hamza, an Electronics graduate with a passion for technology and design. Over the years, I've honed my skills in various domains, including graphic design, web development, and video editing. I am a driven individual who enjoys solving complex problems and creating impactful digital experiences.</p>
+        <p><strong>Location:</strong> Lahore, Pakistan</p>
+        <p><strong>Email:</strong> hamzanoman549619@gmail.com</p>
+        <p><strong>Phone:</strong> +923215743717</p>
+    </section>
+
+    <!-- Objectives Section -->
+    <section class="sec3" id="objectives">
+        <h1>Objectives</h1>
+        <p>My objective is to leverage my skills and experiences to contribute to innovative projects that challenge my abilities and push the boundaries of what technology can achieve. I aim to work in environments that foster creativity, collaboration, and continuous learning, where I can grow both personally and professionally.</p>
+        <p>I am particularly interested in roles that involve front-end development, user experience design, and digital media production. My long-term goal is to establish myself as a leading professional in these fields, delivering exceptional value to clients and making a positive impact on the industry.</p>
+    </section>
+
+    <!-- Education Section -->
+    <section class="sec3" id="education">
+        <h1>Education</h1>
+        <p><strong>Bachelor's Degree in Electronics</strong></p>
+        <p>Goverment College University, Lahore</p>
+        <p>Graduation Year: 2024</p>
+        <p>Throughout my academic journey, I have acquired a strong foundation in electronics and computer science, with a focus on software development, signal processing, and embedded systems. My coursework and projects have equipped me with the technical and analytical skills necessary to excel in the tech industry.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="sec3" id="contact">
+        <h1>Contact</h1>
+        <p>If you would like to collaborate on a project, discuss potential opportunities, or simply connect, please feel free to reach out to me using the contact information below. I am always open to new ideas and challenges, and I look forward to connecting with like-minded professionals.</p>
+        <p><strong>Email:</strong> hamzanoman549619@gmail.com</p>
+        <p><strong>Phone:</strong> +923215743717</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/hamzanoman">linkedin.com/in/hamza</a></p>
+    </section>
+
+    <br><br><br><br><br><br><br><br><br><br>
+    <footer>
+        <div class="footer">Hamza's Portfolio &#169; All Copyrights Reserved 2024</div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Video Editor', 'Graphic Designer', 'Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
